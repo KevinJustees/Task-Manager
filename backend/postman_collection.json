@@ -1,0 +1,14 @@
+{
+  "info": { "name": "My API Docs" },
+  "item": [
+    { "name": "Register", "request": { "method": "POST", "url": "{{baseUrl}}/auth/register" } },
+    { "name": "Login", "request": { "method": "POST", "url": "{{baseUrl}}/auth/login" } },
+    { "name": "Get Profile", "request": { "method": "GET", "url": "{{baseUrl}}/user/me" } },
+    { "name": "Update Profile", "request": { "method": "PUT", "url": "{{baseUrl}}/user/me" } },
+    { "name": "Create Task", "request": { "method": "POST", "url": "{{baseUrl}}/tasks" } },
+    { "name": "Get Tasks", "request": { "method": "GET", "url": "{{baseUrl}}/tasks" } },
+    { "name": "Search Tasks", "request": { "method": "GET", "url": "{{baseUrl}}/tasks?q=test" } },
+    { "name": "Filter Tasks", "request": { "method": "GET", "url": "{{baseUrl}}/tasks?status=todo" } },
+    { "name": "Delete Task", "request": { "method": "DELETE", "url": "{{baseUrl}}/tasks/{{taskId}}" } }
+  ]
+}
