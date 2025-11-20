@@ -163,10 +163,9 @@ Deployment:
 
 ## Screenshots
 
-
-<img width="1146" height="859" alt="image" src="https://github.com/user-attachments/assets/81fe4032-10c9-49ba-8fca-71dc3d41e681" />
-<img width="1124" height="858" alt="image" src="https://github.com/user-attachments/assets/78d00833-fd13-48e2-bd1a-398632a01cf8" />
-<img width="1919" height="809" alt="image" src="https://github.com/user-attachments/assets/bca03a21-5657-4763-b7d4-87e690e0dd39" />
+<img width="1146" height="859" alt="Screenshot 2025-11-20 031016" src="https://github.com/user-attachments/assets/ae73d659-d59e-44b2-bdc5-fd88afd6e702" />
+<img width="1124" height="858" alt="Screenshot 2025-11-20 031052" src="https://github.com/user-attachments/assets/e677c28b-450b-4e57-b6fb-c04e6ec15ac7" />
+<img width="1919" height="812" alt="Screenshot 2025-11-20 031152" src="https://github.com/user-attachments/assets/45e438c0-8147-4534-a123-636da5258893" />
 
 
 
