@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fade animation */
+@keyframes fade {
+  0% { opacity: 0; transform: translateY(6px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade { animation: fade .35s ease-out forwards; }
+
+/* Floating animation */
+@keyframes float {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+.animate-float { animation: float 5s ease-in-out infinite; }
+
+/* Dark Glass Card */
+.glass-dark {
+  background: rgba(25, 25, 25, 0.6);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Placeholder fix */
+input::placeholder,
+textarea::placeholder {
+  color: #c7c7c7 !important;
+  opacity: 1;
+}

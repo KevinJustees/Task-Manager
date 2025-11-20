@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Slow spin */
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 2.5s linear infinite;
+}
+
+/* Soft fade */
+@keyframes fadeIn {
+  0% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+.animate-fade {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* premium utilities */
+.card-glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.6));
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* soft shadow */
+.shadow-soft {
+  box-shadow: 0 6px 20px rgba(30,41,59,0.06);
+}
+
+/* button micro animation */
+.btn-press {
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btn-press:active {
+  transform: translateY(1px) scale(.995);
+}
+
+/* subtle fade-in already provided: .animate-fade */
+/* slow spin already provided: .animate-spin-slow */
+
+/* focus ring helper */
+.focus-ring:focus {
+  box-shadow: 0 6px 18px rgba(99,102,241,0.12);
+  border-color: rgba(99,102,241,0.6);
+}
